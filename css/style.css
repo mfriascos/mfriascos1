@@ -1,0 +1,64 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #0077b5;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Estilos para el texto principal */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  /* Estilos para los botones sociales */
+  .social-btn {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilos para los iconos sociales */
+  .social-btn img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+  }
+  
+  /* Estilos para el contenedor de las estadísticas de GitHub */
+  .github-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  /* Estilos para la tarjeta de estadísticas de GitHub */
+  .github-stats .card {
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Estilos para el título de la tarjeta de estadísticas de GitHub */
+  .github-stats .card h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilos para el número de la tarjeta de estadísticas de GitHub */
+  .github-stats .card h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #0077b5;
+  }
+  
